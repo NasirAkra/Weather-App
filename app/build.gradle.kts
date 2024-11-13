@@ -6,6 +6,9 @@ plugins {
 android {
     namespace = "com.brain.systemweather"
     compileSdk = 35
+    buildFeatures {
+        viewBinding=true
+    }
 
     defaultConfig {
         applicationId = "com.brain.systemweather"
@@ -37,12 +40,14 @@ android {
 
 dependencies {
     implementation (libs.lottie)
-
+    implementation (libs.converter.gson)
+    implementation (libs.retrofit)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.room.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
