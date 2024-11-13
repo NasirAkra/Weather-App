@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="white_clouds">white Clouds</string>
+    <string name="weather_mathers_nwe_ve_got_the_detail">Weather Mathers,\nWe\'ve Got the Detail</string>
+    <string name="design_by_nnasir_akram">Design By \nNasir Akram</string>
+    <string name="textview">TextView</string>
+    <string name="_00_00_c">00:00 °C</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="min_00_00_c">Min:00:00°C</string>
+    <string name="max_00_00_c">Max:00:00°C</string>
+    <string name="sunny">SUNNY</string>
+    <string name="sunset">Sunset</string>
+    <string name="_0000_hpa">0000 hpa</string>
+    <string name="humanity">Humanity</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="condition">Condition</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sea">Sea</string>
+    <string name="sunny2">Sunny</string>
+    <string name="_00">00 %</string>
+    <string name="_00_00">00:00</string>
+    <string name="_00_00rr">00:00</string>
+    <string name="today">Today</string>
+    <string name="_00_0_m_s">00.0 m/s</string>
+</resources>
